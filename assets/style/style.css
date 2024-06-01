@@ -1,0 +1,26 @@
+.header {
+    width: 100vw;
+    height: 200px;
+    background-color: blueviolet;
+}
+.nav {
+    width: 500px;
+    color: #000;
+}
+.main {
+    width: 100vw;
+    height: 600px;
+    background-color: grey;
+}
+.gallery {
+    width: 100vw;
+}
+.footer {
+    width: 100vw;
+    height: 150px;
+    background-color: blueviolet;
+}
+.navfooter {
+    width: 100vw;
+    color: #000;
+}
