@@ -1,26 +1,28 @@
 .header {
     width: 100vw;
-    height: 200px;
-    background-color: blueviolet;
+    height: 170px;
+    background-color: #63418A;
+    color: #240944;
 }
 .nav {
     width: 500px;
-    color: #000;
+    color: #240944;
 }
 .main {
     width: 100vw;
     height: 600px;
-    background-color: grey;
+    background-color: #8C6DB0;
 }
 .gallery {
+    display: flex;
     width: 100vw;
 }
 .footer {
     width: 100vw;
     height: 150px;
-    background-color: blueviolet;
+    background-color: #63418A;
 }
 .navfooter {
     width: 100vw;
-    color: #000;
+    color: #240944;
 }
