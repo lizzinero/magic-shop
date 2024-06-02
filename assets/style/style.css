@@ -1,28 +1,88 @@
+/* header */
 .header {
+    display: flex;
     width: 100vw;
-    height: 170px;
-    background-color: #63418A;
+    /* height: 170px; */
+    background-color: #8C8299;
     color: #240944;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.title {
+    border: 1px solid black;
+    /* align-self: flex-start; */
+}
+.text {
+    border: 1px solid black;
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    width: 500px;
+    /* height: 200px; */
+    border: 1px solid black;
 }
 .nav {
-    width: 500px;
+    /* width: 500px; */
     color: #240944;
+    border: 1px solid black;
+    /* align-self: flex-end; */
 }
+/* main */
 .main {
-    width: 100vw;
-    height: 600px;
-    background-color: #8C6DB0;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #C4C6CE;
 }
 .gallery {
     display: flex;
     width: 100vw;
+    /* height: 300px; */
+    border: 1px solid black;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-shrink: 2;
+    gap: 10px;
+}
+.crystal {
+    height: 230px;
+    /* margin: 10px; */
+}
+.wand {
+    height: 230px;
+    /* margin: 5px; */
+}
+.broom {
+    height: 300px;
+    /* margin: 5px; */
+}
+.book {
+    height: 270px;
+    /* margin: 5px; */
+}
+.pot {
+    height: 270px;
+    /* margin: 5px; */
+}
+.potion {
+    height: 280px;
+    /* margin: 10px; */
 }
 .footer {
+    display: flex;
     width: 100vw;
     height: 150px;
-    background-color: #63418A;
+    background-color: #472B59;
 }
 .navfooter {
     width: 100vw;
-    color: #240944;
+    color: #C4C6CE;
+}
+li {
+    list-style-type: none
 }
